@@ -313,7 +313,7 @@
                                 </value>
                                 <next>
                                   <block type="oled_drawtext" id="72">
-                                    <field name="TEXT">B.O.B 2.0</field>
+                                    <field name="TEXT">B.O.B </field>
                                     <next>
                                       <block type="oled_setcursor" id="73" inline="true">
                                         <value name="STARTX">
@@ -328,7 +328,7 @@
                                         </value>
                                         <next>
                                           <block type="oled_drawtext" id="76">
-                                            <field name="TEXT">Goal: Search </field>
+                                            <field name="TEXT">Goal:Search </field>
                                             <next>
                                               <block type="oled_setcursor" id="77" inline="true">
                                                 <value name="STARTX">
