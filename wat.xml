@@ -147,7 +147,7 @@
                   <block type="oled_cleardisplay" id="35">
                     <next>
                       <block type="multimedia_playwav" id="36">
-                        <field name="WAV">taiki.wav</field>
+                        <field name="WAV">3456.w</field>
                         <next>
                           <block type="led_select" id="37" inline="true">
                             <field name="ACTION">FLASH</field>
