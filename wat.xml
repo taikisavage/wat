@@ -138,24 +138,20 @@
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="oled_cleardisplay" id="213">
+                                      <block type="oled_setcursor" id="189" inline="true">
+                                        <value name="STARTX">
+                                          <block type="math_number" id="196">
+                                            <field name="NUM">10</field>
+                                          </block>
+                                        </value>
+                                        <value name="STARTY">
+                                          <block type="math_number" id="197">
+                                            <field name="NUM">10</field>
+                                          </block>
+                                        </value>
                                         <next>
-                                          <block type="oled_setcursor" id="189" inline="true">
-                                            <value name="STARTX">
-                                              <block type="math_number" id="196">
-                                                <field name="NUM">10</field>
-                                              </block>
-                                            </value>
-                                            <value name="STARTY">
-                                              <block type="math_number" id="197">
-                                                <field name="NUM">10</field>
-                                              </block>
-                                            </value>
-                                            <next>
-                                              <block type="oled_drawtext" id="164">
-                                                <field name="TEXT">H20 found, initiating self destruct</field>
-                                              </block>
-                                            </next>
+                                          <block type="oled_drawtext" id="164">
+                                            <field name="TEXT">H20 found, initiating self destruct</field>
                                           </block>
                                         </next>
                                       </block>
