@@ -36,16 +36,29 @@
                       </block>
                     </value>
                     <next>
-                      <block type="movement_left" id="296">
+                      <block type="movement_stutter" id="341">
                         <next>
-                          <block type="robot_delay" id="297" inline="true">
+                          <block type="robot_delay" id="342" inline="true">
                             <value name="DELAY">
-                              <block type="math_number" id="298">
-                                <field name="NUM">1000</field>
+                              <block type="math_number" id="343">
+                                <field name="NUM">200</field>
                               </block>
                             </value>
                             <next>
-                              <block type="movement_stop" id="118"></block>
+                              <block type="movement_left" id="296">
+                                <next>
+                                  <block type="robot_delay" id="297" inline="true">
+                                    <value name="DELAY">
+                                      <block type="math_number" id="298">
+                                        <field name="NUM">1000</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="movement_stop" id="118"></block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
                             </next>
                           </block>
                         </next>
@@ -80,16 +93,29 @@
                       </block>
                     </value>
                     <next>
-                      <block type="movement_right" id="299">
+                      <block type="movement_stutter" id="344">
                         <next>
-                          <block type="robot_delay" id="300" inline="true">
+                          <block type="robot_delay" id="345" inline="true">
                             <value name="DELAY">
-                              <block type="math_number" id="301">
-                                <field name="NUM">1000</field>
+                              <block type="math_number" id="346">
+                                <field name="NUM">200</field>
                               </block>
                             </value>
                             <next>
-                              <block type="movement_stop" id="124"></block>
+                              <block type="movement_right" id="299">
+                                <next>
+                                  <block type="robot_delay" id="300" inline="true">
+                                    <value name="DELAY">
+                                      <block type="math_number" id="301">
+                                        <field name="NUM">1000</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="movement_stop" id="124"></block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
                             </next>
                           </block>
                         </next>
