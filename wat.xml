@@ -345,16 +345,35 @@
                                                   <block type="oled_drawtext" id="80">
                                                     <field name="TEXT">For water</field>
                                                     <next>
-                                                      <block type="movement_forward" id="81">
+                                                      <block type="oled_setcursor" id="87" inline="true">
+                                                        <value name="STARTX">
+                                                          <block type="math_number" id="88">
+                                                            <field name="NUM">10</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="STARTY">
+                                                          <block type="math_number" id="89">
+                                                            <field name="NUM">50</field>
+                                                          </block>
+                                                        </value>
                                                         <next>
-                                                          <block type="robot_delay" id="82" inline="true">
-                                                            <value name="DELAY">
-                                                              <block type="math_number" id="83">
-                                                                <field name="NUM">200</field>
-                                                              </block>
-                                                            </value>
+                                                          <block type="oled_drawtext" id="90">
+                                                            <field name="TEXT">Drone no.333296184</field>
                                                             <next>
-                                                              <block type="movement_stop" id="84"></block>
+                                                              <block type="movement_forward" id="81">
+                                                                <next>
+                                                                  <block type="robot_delay" id="82" inline="true">
+                                                                    <value name="DELAY">
+                                                                      <block type="math_number" id="83">
+                                                                        <field name="NUM">200</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="movement_stop" id="84"></block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
                                                             </next>
                                                           </block>
                                                         </next>
