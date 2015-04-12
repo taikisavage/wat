@@ -168,7 +168,26 @@
                                                     </value>
                                                     <next>
                                                       <block type="oled_drawtext" id="236">
-                                                        <field name="TEXT">initiating self destruct</field>
+                                                        <field name="TEXT">initiating self </field>
+                                                        <next>
+                                                          <block type="oled_setcursor" id="240" inline="true">
+                                                            <value name="STARTX">
+                                                              <block type="math_number" id="241">
+                                                                <field name="NUM">10</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="STARTY">
+                                                              <block type="math_number" id="242">
+                                                                <field name="NUM">30</field>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="oled_drawtext" id="243">
+                                                                <field name="TEXT">destruct</field>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
                                                       </block>
                                                     </next>
                                                   </block>
