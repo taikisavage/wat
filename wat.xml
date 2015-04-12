@@ -213,6 +213,19 @@
                                                                 <next>
                                                                   <block type="oled_drawtext" id="243">
                                                                     <field name="TEXT">destruct</field>
+                                                                    <next>
+                                                                      <block type="movement_stutter" id="322">
+                                                                        <next>
+                                                                          <block type="robot_delay" id="323" inline="true">
+                                                                            <value name="DELAY">
+                                                                              <block type="math_number" id="324">
+                                                                                <field name="NUM">2000</field>
+                                                                              </block>
+                                                                            </value>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
                                                                   </block>
                                                                 </next>
                                                               </block>
