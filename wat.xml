@@ -373,7 +373,7 @@
                                                                 </value>
                                                                 <next>
                                                                   <block type="oled_drawtext" id="90">
-                                                                    <field name="TEXT">Drone no.333296184</field>
+                                                                    <field name="TEXT">Drone No.333296184</field>
                                                                     <next>
                                                                       <block type="movement_forward" id="81">
                                                                         <next>
